@@ -7,6 +7,13 @@
     <packaging>war</packaging>
     <name>JHBingo</name>
     
+    <parent>
+        <groupId>sur.softsurena</groupId>
+        <artifactId>sistemasPom</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../sistemasPom/pom.xml</relativePath>
+    </parent>
+    
     <properties>
         <maven.compiler.release>11</maven.compiler.release>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -21,6 +28,11 @@
             <artifactId>jakarta.jakartaee-api</artifactId>
             <version>${jakartaee}</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>sur.softsurena</groupId>
+            <artifactId>entidades</artifactId>
+            <version>1</version>
         </dependency>
     </dependencies>
     
