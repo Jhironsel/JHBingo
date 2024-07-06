@@ -11,11 +11,10 @@
         <groupId>sur.softsurena</groupId>
         <artifactId>sistemasPom</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../sistemasPom/pom.xml</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     
     <properties>
-        <maven.compiler.release>11</maven.compiler.release>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
@@ -32,7 +31,7 @@
         <dependency>
             <groupId>sur.softsurena</groupId>
             <artifactId>entidades</artifactId>
-            <version>1</version>
+            <version>2</version>
         </dependency>
     </dependencies>
     
